@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils.class_weight import compute_class_weight
 
-data = pd.read_csv("/content/Data_Problem3/German Credit Data.txt", delimiter=',', header=None)
+data = pd.read_csv("/workspaces/Data-Mining---Assignment-2/Data_Problem3/German Credit Data.txt", delimiter=',', header=None)
 
 
 X = data.iloc[:, :-1]  

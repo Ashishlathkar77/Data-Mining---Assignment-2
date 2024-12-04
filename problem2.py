@@ -44,7 +44,7 @@ def k_means(X, k, max_iter=100, tolerance=0.001, random_init=10):
             
     return best_sse
 
-data_path = '/content/Data_Problem2/seeds.txt' 
+data_path = '/workspaces/Data-Mining---Assignment-2/Data_Problem2/seeds.txt' 
 X = np.loadtxt(data_path)
 
 # Run k-means clustering for k=3, k=5, k=7 and average over 10 initializations

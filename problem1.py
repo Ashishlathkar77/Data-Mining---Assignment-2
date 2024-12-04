@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.svm import SVC
 from sklearn.preprocessing import StandardScaler
 
-data_path = '/content/Data_Problem1/'
+data_path = '/workspaces/Data-Mining---Assignment-2/Data_Problem1/'
 X_train_path = data_path + 'X_train.txt'
 X_test_path = data_path + 'X_test.txt'
 y_train_path = data_path + 'y_train.txt'
