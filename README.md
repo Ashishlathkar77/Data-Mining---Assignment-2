@@ -85,6 +85,20 @@ For Problem 2, use problem2.py to perform K-means clustering with various values
 
 For Problem 3, use problem3.py for the classification tasks with class imbalance handling techniques.
 
+* To automatically install the dependencies and run all the problem scripts one by one, run the following command:
+
+```python
+python run_project_all.py
+```
+
+This will:
+
+- Install the required dependencies from requirements.txt.
+- Execute the scripts problem1.py, problem2.py, and problem3.py in sequence.
+
+### Check the Output
+Once the script completes, check the output of each problem. The results will be printed to the terminal/console where you ran the script.
+
 ### Conclusion
 SVM Results: The Polynomial Kernel performed better than the Gaussian Kernel for this dataset.
 
